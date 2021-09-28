@@ -5,7 +5,8 @@
 }
 
 body, html {
-  background-image: url(https://images2.alphacoders.com/238/238870.jpg);
+  background-image: url(https://wallpaperaccess.com/full/162119.jpg);
+  background-size: 100%;
   background-position: center;
   background-attachment: fixed;
   padding 0;
@@ -35,14 +36,13 @@ li a {
   text-decoration: none;
 }
 
-.navBar{
+.navBar {
   font-size: 24px;
   background-color: #C7A14A;
   position: fixed;
   width: 100%;
   display: block;
 }
-
 
 .logoBox {
   position: fixed;
@@ -54,64 +54,69 @@ li a {
 }
 
 .mainContainer{
-  padding-top: 20px;
+  padding-top: 70px;
+
 }
 
-.caption{
+h1 {
+  font-size: 55px;
+  color: white;
   text-align: center;
+}
+
+.parent{
+  width: 100%;
+
+}
+
+.child{
+  float: left;
+  display: flex;
   width: 50%;
   height: auto;
-  margin: auto;
+}
+
+.imgContainer{
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+
+}
+
+.button{
+  font-weight: bold;
+  margin-left: 50px;
+  background-color: #4CAF50;
+  border: none;
   color: white;
+  padding: 50px 200px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 60px;
+}
+
+.button:hover{
+  background-color: #4CAF10;
+  color: white;
+}
+
+
+.thumbnail{
+  display: inline;
+  width: 50%;
+  height: auto;
 }
 
 p {
-
-}
-h1{
-  color: #C7A14A;
-  font-size: 50px;
   text-align: center;
-  padding: 60px;
-  padding-bottom: 20px;
-
-}
-
-h2{
-  background-color: rgba(199, 161, 74);
-  font-size: 50px;
-  text-align: center;
+  margin-right: 60px;
+  background-color:  rgba(199, 161, 74, 0.5);
   color: white;
-
-
-}
-
-.c02Graph {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border: 10px solid #4D5873;
+  font-size: 35px
 
 }
-.sixContainer{
 
-  background-color: rgba(77, 88, 115, 0.8);
-  width: 100%;
-}
-
-.thumbnail {
-  width: 16.6%;
-  height: auto;
-  position: relative;
-}
-
-.desc {
-
-  padding-top: 40px;
-  padding-bottom: 10px;
-  text-align:center;
-  display: inline-block;
-  color: white;
-  width: 16%;
+.caption{
+  margin-left: 50px;
 }
